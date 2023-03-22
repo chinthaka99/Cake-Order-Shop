@@ -1,0 +1,51 @@
+.order-form{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    margin: 0 25%;
+    height: 110vh;
+    background-color:#1E96D6;
+    color: white;
+    border-radius: 25px;
+    padding: 50px 25px;
+}
+
+.form-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-label{
+   margin: 1.7rem auto;
+   align-items: center;
+   justify-content: center;
+}
+
+.order-input{
+    width: 100%;
+    max-width: 400px; /* adjust this value to your desired maximum width */
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.confirm-order-button{
+    display: flex;
+    float: right;
+    color: white;
+    width: 20%;
+    height: 50px;
+    background: #FFC93C;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.confirm-order-button:hover{
+    cursor: pointer;
+}

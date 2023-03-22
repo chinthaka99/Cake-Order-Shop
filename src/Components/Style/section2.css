@@ -1,0 +1,34 @@
+.section_2{
+    padding-top: 150px;
+    margin: 0;
+    position: relative;
+    height: 70vh;
+    color: rgb(255, 255, 255);
+    font-family: 'Josefin Sans', sans-serif;
+    justify-content: center;
+}
+
+.s2_flex{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E96D6;
+    justify-content: center;
+    margin: 0 10%;
+    border-radius: 50px;
+}
+
+.sec2_image{
+    width: 80px;
+    margin: 20px 120px;
+    justify-content: center;
+}
+
+.s2-flex-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+}

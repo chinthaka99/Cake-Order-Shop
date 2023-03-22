@@ -1,0 +1,40 @@
+.order-now{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    padding: 1rem 2rem;
+    height: 120vh;
+}
+
+.order-image{
+    display: block;
+    margin: 0 38%;
+    width: 25%;
+    border-radius: 50%;
+}
+
+.order-ul{
+    color: black;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.order-button{
+    color: #1E96D6;
+    padding: 8px 10px;
+    width: 125px;
+    height: 40px;
+    background-color: white;
+    border-color: 1E96D6;
+    border-radius: 80px;
+    display: block;
+    margin: 0 47%;
+    text-decoration: none;
+}
+
+.order-button:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;;
+}
+
